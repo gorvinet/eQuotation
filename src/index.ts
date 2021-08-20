@@ -24,8 +24,7 @@ export class QuotationBody extends LitElement {
                   "code":0,
                   "message":"Bad URL"}
               };  
-
-
+              
   constructor() {
     super(); 
     this.QuotationID = this.GetURLParameter("ID");
